@@ -1,3 +1,8 @@
+pypiprivate - Modified version
+===========
+This is a fork from an opensource project.
+I introduce a bug fix, enforcing keys to be lowercase in S3.
+
 pypiprivate
 ===========
 

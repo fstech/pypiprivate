@@ -116,7 +116,7 @@ class AWSS3Storage(Storage):
         if self.prefix:
             parts.append(self.prefix)
         if path != '.':
-            parts.append(path)
+            parts.append(path.lower())
         return self.join_path(*parts)
 
     def listdir(self, path):
